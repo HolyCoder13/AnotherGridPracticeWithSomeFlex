@@ -1,0 +1,117 @@
+/*Navbar*/
+body{
+	margin:0px;
+}
+.nList{
+	display:flex;
+	flex-direction:row;
+}
+li{
+	margin:2vh;
+	list-style: none;
+	transition:0.7s;
+}
+li:hover{
+	transform:scale(1.2);
+}
+.ri{
+	margin-left:auto;
+}
+.bar{
+	background-color:#0577CF;
+	position:fixed;
+	width:100%;
+	height:8vh;
+}
+li>a{
+	text-decoration: none;
+	color:inherit;
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+font-family: 'Karantina', cursive;
+font-size:25px;
+}
+/*Navbar*/
+
+
+
+/*High Content*/
+.content{
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:60vh;
+}
+.content>img{
+	width:100%;
+	height:90%;
+}
+.cenText{
+	position: absolute;
+	top:30%;
+	left:32%;
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+	font-size:57px;
+	transition:1.1s;
+
+}
+.cenText:hover{
+	transform:scale(1.3);
+}
+/*High Content*/
+
+
+/*Grid*/
+.gridWrap{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr;
+	grid-gap:10vh;
+}
+.box>img{
+	width:90%;
+	height:90%;
+	transition:1.25s;
+}
+.box>img:hover{
+	transform:scale(1.07);
+}
+.box{
+	width:50vh;
+	height:50vh;
+}
+/*Grid*/
+
+
+/*footer*/
+.footer{
+	background-color:#0577CF;
+	position:relative;
+	height:25vh;
+	color:white;
+}
+.footer>span{
+	position:absolute;
+	left:0;
+	bottom:0;
+	transition: 1.1s;
+	font-family: 'Karantina', cursive;
+	font-size:20px;
+}
+.footer>img{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.footer>span:hover{
+	transform: scale(1.1);
+}
+.footer>img{
+	transition:1.1s;
+}
+.footer>img:hover{
+	transform:scale(1.2);
+}
+/*footer*/
+
